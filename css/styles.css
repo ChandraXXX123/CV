@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    background-color: #0f3057;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+}
+
+h2 {
+    color: #ffefa0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    margin-left: 480px;
+    color: #ffefa0;
+    text-shadow: 20px;
+}
+
+.btn{
+    background-color: #ac4b1c;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.Button{
+    background-color: #ac4b1c;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.wrapper {
+    width: 720px;
+    padding-top: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section {
+    margin-bottom: 200px;
+}
+
+/* section pertama */
+.intro {
+    text-align: left;
+}
+
+.foto-profil {
+    float: right;
+    border-radius: 100%;
+    margin-left: 30px;
+    max-width: 400px;
+    max-height: 400px;
+}
+.myslides{
+    max-height: 600px;
+    max-width: 1000px;
+    padding:50px
+}
+.images{
+    margin-left: 235px;
+    position: relative;
+}
+
+.desc{
+    color: #eeeeee;
+}
+
+.judul{
+    text-align: center;
+    color: #ffefa0;
+}
+
+.title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: "caveat", cursive;
+    display: block;
+}
+
+.ux-skill-img {
+    display: block;
+    max-width: 450px;
+    max-height: 300px;
+    float: left;
+}
+
+.web-skill-img {
+    display: block;
+    max-width: 350px;
+    max-height: 350px;
+    float: right;
+}
+
+.skill-row {
+    text-align: left;
+}
+
+.Text {
+    text-align: center;
+}
+
+.Text-web {
+    padding-top: 200px;
+}
+
+/* section ketiga */
+.footer {
+    background-color: #7f00c94b;
+    padding: 30px 0 20px;
+}
+
+.cta-text {
+    width: 70%;
+    margin: 0 auto 12px auto;
+}
+
+.social-links {
+    color: #ffefa0;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.icon8 {
+    color: #ffefa0;
+}
+
+#attribute {
+    position: absolute;
+    left: -77px;
+    top: 160px;
+    z-index: -1;
+}

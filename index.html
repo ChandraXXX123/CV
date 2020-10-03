@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChandraYudistiraBolangan</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="section">
+        <img id="attribute" src="img/attribute.png" alt="attribute-img">
+        <img class="foto-profil" src="img/Foto1.png" alt="foto-img">
+        <div class="intro">
+       <span class="title">Hi,Saya Chandra</span>
+        <h2>Front-End Developer</h2>
+        <p>Saya adalah Mahasiswa baru dan Belajar Di Telkom University. Di waktu luang saya, saya suka
+            bersantai dan bertamasya ke pantai.
+        </p>
+        <a class="btn" href="mailto:chandrayudistira992@gmail.com">Email Me!</a>
+        </div>
+    </div>
+    <div class="section">
+      <a class="Button" href="index2.html">Lihat Portofolio Saya</a>
+        <h1>Apa yang bisa saya lakukan?</h1>
+        <div class="skill-row">
+          <img class="ux-skill-img" src="img/skill-1.png" alt="" />
+          <h2>UI/UX Design</h2>
+          <p>
+            UI/UX Design adalah Hobi saya dari SMK,dari dulu saya suka mendesain tetapi saya belum kesampaian untuk mendesain sebuah website
+          </p>
+      
+        </div>
+        <div class="skill-row">
+          <img class="web-skill-img" src="img/skill-2.png" alt="" />
+          <h2 class="Text-web">Frontend Web Development</h2>
+          <p>
+            Saya Baru saja memasuki dunia programming dan membutuhkan lebih banyak portofolio agar mudah mendapatkan client
+          </p>
+        </div>
+      </div>
+    
+      <div class="section">
+        <h1 class="Text">Saya bisa bantu!</h1>
+        <p class="cta-text">
+          Ada kebutuhan desain/pengembangan web untuk proyek selanjutnya? Atau
+          sekedar minum kopi bareng di kedai kekinian? Yuk ngobrol!
+        </p><br>
+        <a class="btn" href="mailto:chandrayudistira992@gmail.com">Email Me!</a>
+      </div>
+    </div> <!-- akhir dari div wrapper -->
+    
+    <div class="footer">
+      <a class="social-links" href="https://www.instagram.com/chandrayudistira404/">Instagram</a>
+      <a class="social-links" href="https://www.facebook.com/jumaah.ramansyah/">Facebook</a>
+      <a class="social-links" href="https://www.linkedin.com/in/chandra-yudistira-bolangan-115ab11b7/">linkedin</a>
+      <p class="footer-text">
+        &#169;2020 ChandraYudistiraBolangan. Illustration provided by
+        <a class="icon8"href="https://icons8.com/">Icons 8</a>
+      </p>
+    </div>
+    <script>
+      var namaSaya = "Chandra Yudistira Tira";
+      var namaKamu = prompt("Nama Kamu Siapa?");
+      
+      var karakterPertama = namaKamu.slice(0,1);
+      karakterPertama = karakterPertama.toUpperCase();
+      var sisaKarakter = namaKamu.slice(1,namaKamu.length);
+      namaKamu = karakterPertama+sisaKarakter;
+
+      alert("Halo, nama saya " + namaSaya + ", Selamat Datang Di Website Kami " + namaKamu + " !");
+      
+    </script>
+</body>
+</html>
